@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">đồ án 1</string>
+    <string name="TXT1">ĐĂNG NHẬP APP</string>
+    <string name="TXT2">NHẬP TÊN NGƯỜI DÙNG</string>
+    <string name="TXT3">NHẬP VÀO MẬT KHẨU:</string>
+    <string name="TXT4">NHẬP MẬT KHẨU</string>
+    <string name="btn">ĐĂNG NHẬP</string>
+    <string name="txtkq">đăng nhập thành công</string>
+    <string name="txt1.1">QUẢN LÝ SINH VIÊN</string>
+    <string name="txt1.2">HỌ SINH VIÊN</string>
+    <string name="txt1.3">TÊN SINH VIÊN</string>
+    <string name="txt1.4">LỚP</string>
+    <string name="txt1.5">MÃ SỐ SINH VIÊN</string>
+    <string name="txtHT">HIỂN THỊ</string>
+    <string name="txtTHEM">THÊM</string>
+    <string name="txtSUA">SỬA</string>
+    <string name="txtXOA">XÓA</string>
+    <string name="txtHead">TRANG CHỦ</string>
+</resources>

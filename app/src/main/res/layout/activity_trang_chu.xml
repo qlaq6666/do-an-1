@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SINH VIÊN"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnCTDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHƯƠNG TRÌNH ĐÀO TẠO"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐIỂM THI"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnCTXH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bảng CTXH"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnKQHT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KẾT QUẢ HỌC TẬP"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnQLTK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý tài khoản"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnDX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:text="Đăng xuất"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+</LinearLayout>
+</ScrollView>

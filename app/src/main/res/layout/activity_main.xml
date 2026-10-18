@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TXT1"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/txtuser"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/TXT2"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/TXT4"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/black"
+        android:onClick="testlogin"
+        android:text="@string/btn"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="tk: admin"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="pass: 1"
+        android:textAlignment="center"/>
+
+</LinearLayout>
