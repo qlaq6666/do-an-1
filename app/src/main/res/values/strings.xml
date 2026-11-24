@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">đồ án 1</string>
+    <string name="app_name">Quản lý HSSV</string>
     <string name="TXT1">ĐĂNG NHẬP APP</string>
     <string name="TXT2">NHẬP TÊN NGƯỜI DÙNG</string>
     <string name="TXT3">NHẬP VÀO MẬT KHẨU:</string>
@@ -16,4 +16,29 @@
     <string name="txtSUA">SỬA</string>
     <string name="txtXOA">XÓA</string>
     <string name="txtHead">TRANG CHỦ</string>
+    <string name="home_title">Quản lý HSSV</string>
+    <string name="manage_classes">Quản lý lớp</string>
+    <string name="manage_students">Quản lý sinh viên</string>
+    <string name="manage_subjects">Quản lý môn học</string>
+    <string name="log_out">Đăng xuất</string>
+    <string name="record_count">%1$d bản ghi</string>
+    <string name="empty_records">Chưa có dữ liệu. Chọn Thêm để tạo bản ghi đầu tiên.</string>
+    <string name="add_record">Thêm</string>
+    <string name="remove_record">Xóa bản ghi?</string>
+    <string name="remove">Xóa</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="dashboard_title">QUẢN LÝ HSSV</string>
+    <string name="dashboard_subtitle">Hệ thống quản lý sinh viên</string>
+    <string name="manage_teachers">Quản lý giảng viên</string>
+    <string name="manage_results">Quản lý kết quả</string>
+    <string name="dashboard_stats">Thống kê</string>
+    <string name="dashboard_stats_summary">Sinh viên: %1$d\nLớp: %2$d\nMôn học: %3$d\nGiảng viên: %4$d\nKết quả: %5$d\nPhân công: %6$d</string>
+    <string name="login_username">Tên đăng nhập</string>
+    <string name="login_password">Mật khẩu</string>
+    <string name="login_demo">Tài khoản demo · admin / 1</string>
+    <string name="login_error">Tên đăng nhập hoặc mật khẩu chưa đúng.</string>
+    <string name="manage_assignments">Phân công giảng dạy</string>
+    <string name="missing_reference">Cần có dữ liệu ở mục %1$s trước khi thêm bản ghi này.</string>
+    <string name="open_reference">Mở danh mục</string>
 </resources>

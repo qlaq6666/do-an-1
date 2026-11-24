@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="dashboard_backdrop">#080B14</color>
+    <color name="dashboard_panel_color">#17234D</color>
+    <color name="dashboard_tile_color">#20377E</color>
+    <color name="dashboard_secondary_text">#D4DFFF</color>
+    <color name="dashboard_accent">#BAC9FF</color>
 </resources>

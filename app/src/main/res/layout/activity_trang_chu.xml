@@ -1,77 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/main">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="20dp">
+    android:background="@color/dashboard_backdrop">
 
-    <Button
-        android:id="@+id/btnSV"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SINH VIÊN"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/black"/>
+        android:layout_margin="14dp"
+        android:background="@drawable/dashboard_panel"
+        android:orientation="vertical"
+        android:padding="14dp">
 
-    <Button
-        android:id="@+id/btnCTDT"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="CHƯƠNG TRÌNH ĐÀO TẠO"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/btnDT"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ĐIỂM THI"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/black"/>
+            <Space
+                android:layout_width="48dp"
+                android:layout_height="1dp" />
 
-    <Button
-        android:id="@+id/btnCTXH"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bảng CTXH"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/black"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:accessibilityHeading="true"
+                android:gravity="center"
+                android:text="@string/dashboard_title"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/btnKQHT"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="KẾT QUẢ HỌC TẬP"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/black"/>
+            <ImageButton
+                android:id="@+id/btnDX"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/log_out"
+                android:src="@drawable/ic_dashboard_logout" />
+        </LinearLayout>
 
-    <Button
-        android:id="@+id/btnQLTK"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Quản lý tài khoản"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/dashboard_subtitle"
+            android:gravity="center"
+            android:textColor="@color/dashboard_secondary_text"
+            android:textSize="13sp" />
 
-    <Button
-        android:id="@+id/btnDX"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="@color/white"
-        android:text="Đăng xuất"
-        android:textSize="20sp"
-        android:textColor="@color/black" />
-</LinearLayout>
+        <LinearLayout
+            android:id="@+id/dashboard_tiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </LinearLayout>
 </ScrollView>

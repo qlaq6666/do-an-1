@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnSV" type="id" />
+    <item name="btnLop" type="id" />
+    <item name="btnMonHoc" type="id" />
+    <item name="btnGiangVien" type="id" />
+    <item name="btnKetQua" type="id" />
+    <item name="btnThongKe" type="id" />
+</resources>
